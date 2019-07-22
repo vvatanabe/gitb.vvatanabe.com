@@ -23,6 +23,6 @@ $ brew install gitb
 $ go get github.com/vvatanabe/gitb
 ```
 
-# Github Release Page
+# GitHub Release Page
 
 &emsp;You can download the pre-built binary for each OS from the [GitHub Release Page](https://github.com/vvatanabe/gitb/releases). After downloading,  put in the directory in PATH.

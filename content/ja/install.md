@@ -23,6 +23,6 @@ $ brew install gitb
 $ go get github.com/vvatanabe/gitb
 ```
 
-# Github Release Page
+# GitHub Release Page
 
 &emsp;ビルド済のバイナリはGitHubの[リリースページ](https://github.com/vvatanabe/gitb/releases)からOS毎にダウンロードできます。ダウンロード後、パスが通ったディレクトリに配置してください。
