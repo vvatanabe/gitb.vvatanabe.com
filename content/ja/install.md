@@ -11,8 +11,8 @@ draft: false
 &emsp;MacOSで使用可能なパッケージマネージャであるHomebrewでインストールできます。
 
 ```bash
-$ brew tap vvatanabe/gitb
-$ brew install gitb
+brew tap vvatanabe/gitb
+brew install gitb
 ```
 
 # Go
@@ -20,7 +20,7 @@ $ brew install gitb
 &emsp;Go言語(go1.12+)をインストールしていれば、`go get`コマンドでもインストールできます。
 
 ``` bash
-$ go get github.com/vvatanabe/gitb
+go get github.com/vvatanabe/gitb
 ```
 
 # GitHub Release Page
