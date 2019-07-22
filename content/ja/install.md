@@ -1,10 +1,10 @@
 ---
-title: "Install"
+title: "インストール"
 date: ""
 draft: false
 ---
 
-　`gitb`をインストールする方法を解説します。
+&emsp;`gitb`をインストールする方法を解説します。サポートするOSはWindows、MacOS、そしてLinuxです。
 
 # Homebrew
 
@@ -15,17 +15,9 @@ $ brew tap vvatanabe/gitb
 $ brew install gitb
 ```
 
-# Snap
-
-&emsp;Debian系のOSで使用可能なパッケージマネージャであるSnapでインストールできます。
-
-``` bash
-$ sudo snap install --classic gitb
-```
-
 # Go
 
-&emsp;`go get`コマンドでもインストールできます。
+&emsp;Go言語(go1.12+)をインストールしていれば、`go get`コマンドでもインストールできます。
 
 ``` bash
 $ go get github.com/vvatanabe/gitb
