@@ -16,13 +16,17 @@ __COMMANDS:__
 
 &emsp;現在のリポジトリのプルリクエスト一覧ページを開きます。
 
-`gitb pr show`
+`gitb pr show [<PR-ID>]`
 
-&emsp;現在のブランチに関連したプルリクエストのページを開きます。
+&emsp;指定した`<PR-ID>`のプルリクエストのページを開きます。`<PR-ID>`を指定しない時は、現在のブランチに関連したプルリクエストのページを開きます。
 
 `gitb pr add [-b <BASE>]`
 
 &emsp;現在のブランチでプルリクエストを追加するページを開きます。
+
+`gitb pr blame [git blame command options] <PATH>`
+
+&emsp;指定した`<PATH>`の変更に関連するプルリクエストIDを行単位で表示します。`git blame`コマンドのオプションを適用できます。
 
 __OPTIONS:__
 

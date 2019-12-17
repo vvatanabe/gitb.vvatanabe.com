@@ -17,7 +17,7 @@ brew install gitb
 
 # Go
 
-&emsp;Go言語(go1.12+)をインストールしていれば、`go get`コマンドでもインストールできます。
+&emsp;Go言語(go1.13+)をインストールしていれば、`go get`コマンドでもインストールできます。
 
 ``` bash
 go get github.com/vvatanabe/gitb

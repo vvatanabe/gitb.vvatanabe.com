@@ -17,7 +17,7 @@ brew install gitb
 
 # Go
 
-&emsp;If you have the Go(go1.12+) installed, you can also install it with `go get` command.
+&emsp;If you have the Go(go1.13+) installed, you can also install it with `go get` command.
 
 ``` bash
 go get github.com/vvatanabe/gitb
