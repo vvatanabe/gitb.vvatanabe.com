@@ -10,16 +10,12 @@ showFullContent = false
 
 Please write an alias to .XXXrc (.bashrc, .zshrc, config.fish) if you want to use `gitb <command>` as `git <command>`.
 
-__Bash__
+__Bash, Zsh__
 
 ```bash
-eval "$(gitb alias -s)"
-```
-
-__Zsh__
-
-```zsh
-function git(){gitb "$@"}
+function git(){
+  gitb "$@"
+}
 ```
 
 __Fish__
