@@ -35,3 +35,17 @@ __COMMANDS:__
 `gitb browse repo`
 
 &emsp;Open the repository list page in the current project.
+
+`gitb browse show　[-l, --line <LINE>] [<PATH>]`
+
+&emsp;Open the corresponding page to given file or directory in current repository.
+
+&emsp;Specify the line to be highlighted by appending `#` to the end of the PATH.
+
+&emsp;&emsp;eg: /foo/bar#5, /foo/bar#5-10
+
+__OPTIONS:__
+
+`-l, --line <LINE>`
+
+&emsp;Highlight the specified line. eg: 5, 5-10

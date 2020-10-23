@@ -35,3 +35,17 @@ __COMMANDS:__
 `gitb browse repo`
 
 &emsp;現在のプロジェクトのリポジトリ一覧ページを開きます。
+
+`gitb browse show　[-l, --line <LINE>] [<PATH>]`
+
+&emsp;現在のリポジトリで指定されたファイルやディレクトリに対応するページを開きます。
+
+&emsp;PATHの末尾に`#`を付与してハイライトしたい行を指定できます。
+
+&emsp;&emsp;例: /foo/bar#5, /foo/bar#5-10
+
+__OPTIONS:__
+
+`-l, --line <LINE>`
+
+&emsp;LINEで指定した行をハイライトします。 例: 5, 5-10
